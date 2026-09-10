@@ -1,8 +1,9 @@
 # Virtual environment
 .venv/
 
-# Large datasets
+# Large datasets (кроме файла, отслеживаемого через Git LFS)
 *.csv
+!Synthetic_Financial_datasets_log.csv
 
 # VS Code
 .vscode/
